@@ -3,6 +3,7 @@ import Wrapper from "../wrapper/wrapper";
 import EmployeeCard from "../employeeCard/employeeCard"
 import API from "../../utils/API";
 import Moment from 'react-moment';
+import Header from "../header/header"
 
 
 class body extends React.Component {
@@ -66,8 +67,8 @@ class body extends React.Component {
 
       <div>
         <Wrapper>
-          <h1 className="title">Employee Directory</h1>
-          <span className="input-group">SEARCH: <input type="text" onChange={this.handleInputChange} className="form-control" name="search" value={this.state.search} /> </span>
+          <Header />
+          <span className="input-group">SEARCH: <input type="text" onChange={this.handleInputChange} className="form-control" name="search" value={this.state.search} placeholder="By Name"/> </span>
           <hr />
           {
 
