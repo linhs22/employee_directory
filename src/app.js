@@ -1,19 +1,13 @@
-import React from "react";
-// import Main from "./components/main/main";
-import Wrapper from "./components/wrapper/wrapper";
-import Header from "./components/header/header";
-import SearchName from "./components/search/search";
-import employeeList from "./components/employeeList/employeeList";
+  
+import React from 'react';
+import Body from './components/employeeList/employeeList';
+// import './App.css';
 
 
 function App() {
   return (
-    <div className="App">
-      <Wrapper>
-        <Header />
-        <SearchName />
-        <employeeList />
-      </Wrapper>
+    <div>
+      <Body/>
     </div>
   );
 }
