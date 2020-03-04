@@ -1,6 +1,6 @@
   
 import React from 'react';
-import Body from './components/employeeList/employeeList';
+import Body from './Components/employeeList/employeeList';
 
 
 function App() {

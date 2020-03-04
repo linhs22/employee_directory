@@ -1,8 +1,8 @@
-import React from "./node_modules/react";
+import React from "react";
 import Wrapper from "../wrapper/wrapper";
 import EmployeeCard from "../employeeCard/employeeCard"
 import API from "../../utils/API";
-import Moment from './node_modules/react-moment';
+import Moment from 'react-moment';
 import Header from "../header/header"
 
 
