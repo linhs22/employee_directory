@@ -1,9 +1,12 @@
 // import DataAreaContext from "../utils/DataAreaContext";
-// import React, { useContext } from "react";
-import React from "react";
+import React, { useContext } from "react";
+
 
 const SearchName = () => {
-    // const context = useContext(DataAreaContext);
+    const DataAreaContext = React.createContext({
+
+    });
+    const context = useContext(DataAreaContext);
 
     return (
 
@@ -33,7 +36,7 @@ const SearchName = () => {
                                 type="search"
                                 placeholder="name"
                                 aria-label="Search"
-                                // onChange={e => context.handleSearchChange(e)}
+                                onChange={e => context.handleSearchChange(e)}
                             />
                         </div>
                     </div>

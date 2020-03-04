@@ -1,11 +1,12 @@
 import React from "react";
+import employeeList from "../employeeList/employeeList";
 // import DataArea from "./DataArea";
 
 function Main () {
     return (
-      <>
-        {/* <DataArea /> */}
-      </>
+      <div>
+        <employeeList />
+      </div>
     );
   };
 
